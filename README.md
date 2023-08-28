@@ -1,4 +1,3 @@
 # SanterKode
-Clone
-
-hiii
+Hi 
+Dokumentasi Golang 
