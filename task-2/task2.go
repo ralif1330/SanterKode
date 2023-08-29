@@ -77,13 +77,14 @@ func soal4() {
 	var angkaKetiga = "6"
 	var angkaKeempat = "7"
 
+	// ubah string ke int
 	var cv1, _ = strconv.Atoi(angkaPertama)
 	var cv2, _ = strconv.Atoi(angkaKedua)
 	var cv3, _ = strconv.Atoi(angkaKetiga)
 	var cv4, _ = strconv.Atoi(angkaKeempat)
 
 	total := cv1 + cv2 + cv3 + cv4
-	fmt.Print(total)
+	fmt.Print(angkaPertama, " + ", angkaKedua, " + ", angkaKetiga, " + ", angkaKeempat, " = ", total)
 
 }
 
