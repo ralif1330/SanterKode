@@ -9,3 +9,7 @@ func main() {
 func soal1() {
 
 }
+
+func soal2() {
+
+}
