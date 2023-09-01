@@ -17,3 +17,7 @@ func soal2() {
 func soal3() {
 
 }
+
+func soal4() {
+
+}
