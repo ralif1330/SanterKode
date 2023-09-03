@@ -3,25 +3,21 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("tes 2")
+	fmt.Println("tes 1 , 2")
+
+	printHello()
+
+	fmt.Println(introduction("Reza"))
 }
 
-func soal1() {
+// function parameter pertamam
 
+func printHello() {
+	fmt.Println("Hallo ini baris pertama nyoba function")
 }
 
-func soal2() {
+// function return value
 
-}
-
-func soal3() {
-
-}
-
-func soal4() {
-
-}
-
-func soal5() {
-
+func introduction(name string) string {
+	return "Hello my name is " + name
 }
