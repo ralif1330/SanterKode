@@ -75,6 +75,6 @@ func main() {
 		fmt.Printf("%d. Judul: %s\n", i+1, film["Judul Film"])
 		fmt.Printf("   Durasi: %s\n", film["Durasi Film"])
 		fmt.Printf("   Genre: %s\n", film["Genre Film "])
-		fmt.Printf("   Tahun: %s\n", film["Tahun"])
+		fmt.Printf("   Tahun: %s\n", film["Tahun Film "])
 	}
 }
