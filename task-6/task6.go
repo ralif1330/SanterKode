@@ -72,7 +72,7 @@ func main() {
 	soal4("Juon", "2 jam", "horror", "2004", &dataFilm)
 
 	for i, film := range dataFilm {
-		fmt.Printf("%d. Judul: %s\n", i+1, film["Judul"])
+		fmt.Printf("%d. Judul: %s\n", i+1, film["Judul Film"])
 		fmt.Printf("   Durasi: %s\n", film["Durasi Film"])
 		fmt.Printf("   Genre: %s\n", film["Genre"])
 		fmt.Printf("   Tahun: %s\n", film["Tahun"])
