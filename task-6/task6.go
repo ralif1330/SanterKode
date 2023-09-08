@@ -73,7 +73,7 @@ func main() {
 
 	for i, film := range dataFilm {
 		fmt.Printf("%d. Judul: %s\n", i+1, film["Judul"])
-		fmt.Printf("   Durasi: %s\n", film["Durasi"])
+		fmt.Printf("   Durasi: %s\n", film["Durasi Film"])
 		fmt.Printf("   Genre: %s\n", film["Genre"])
 		fmt.Printf("   Tahun: %s\n", film["Tahun"])
 	}
