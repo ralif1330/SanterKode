@@ -48,7 +48,7 @@ func main() {
 	// function return multiple value
 	fmt.Println("")
 
-	firstName, lastname := introduction2("Reza", "Alif")
+	firstName, lastname := introduction2("Rez", "Alif")
 	fmt.Println(firstName, "\n", lastname)
 
 	// jika tidak ingin menggunakan value bisa menggunakan tanda _
