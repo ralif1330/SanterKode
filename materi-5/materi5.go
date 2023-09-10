@@ -53,6 +53,6 @@ func main() {
 
 	// jika tidak ingin menggunakan value bisa menggunakan tanda _
 	fmt.Println("")
-	firstName2, _ := introduction2("Reza", "Alif")
+	firstName2, _ := introduction2("Reza", "Aliaf")
 	fmt.Println(firstName2)
 }
