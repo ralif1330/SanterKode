@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
 // function parameter
 
@@ -53,6 +56,21 @@ func main() {
 
 	// jika tidak ingin menggunakan value bisa menggunakan tanda _
 	fmt.Println("")
-	firstName2, _ := introduction2("Reza", "Aliaf")
+	firstName2, _ := introduction2("Rezaaaa", "Aliaf")
 	fmt.Println(firstName2)
+
+	angka := 20 
+	var angkaBaru *int = &angka
+	*angkaBaru += 5 
+	angka = 20 - *angkaBaru
+	angka += 3 
+	*angkaBaru += 20
+	fmt.Println(angka)
+
+	phones := []string{"asus","iPhone","samsung","xiaomi","Realme","motorola"}
+	sort.Strings(phones)
+	fmt.Println(phones)
+
+
+	
 }
